@@ -12,13 +12,22 @@ app.set('view engine', 'pug') // Set the template engine as pug
 app.set('views', path.join(__dirname, 'views')) // Set the views direc
 
 // ENDPOINTS
+
 app.get('/',(req,res)=>{
     // const con="This is best contnt"
     const params={}
     
-    res.render('index.pug',params);
+    res.render('home.pug',params);
    
 })
+app.get('/contact',(req,res)=>{
+    // const con="This is best contnt"
+    const params={}
+    
+    res.render('contact.pug',params);
+   
+})
+
 
 
 // start the status
