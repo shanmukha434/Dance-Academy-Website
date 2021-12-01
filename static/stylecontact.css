@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400;500&family=Indie+Flower&family=Roboto+Mono:wght@200&display=swap');
+.container{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 43px 0px;
+    background-color: blanchedalmond;
+
+}
+.container h1{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 34px;
+ 
+}
+h1{
+    text-align: center;
+    /* margin: 12px 0px; */
+    
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    display: flex;
+    padding: 4px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid palevioletred;
+    border-radius: 12px;
+    text-align: center;
+    width: 40%;
+    outline: none;
+
+}
+
+.btn{
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 10px;
+    height: 40px;
+    cursor:pointer;
+    margin: 27px;
+}
+.btn:hover{
+    color:black;
+    background-color: aqua;
+}
