@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400;500&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400;500&family=Indie+Flower&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400;500&family=Indie+Flower&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter&family=Dancing+Script:wght@400;500&family=Indie+Flower&family=Roboto+Mono:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* LOGO */
+#logo{
+    display: flex;
+    color:black;
+    font-size: 28px;
+    align-items:inherit;
+    font-weight: bold;
+  
+
+    margin: 0px 53px;
+
+}
+
+#logo img{
+    height: 42px;
+    margin: 4px;
+    filter: invert();
+}
+
+
+/* THIS IS NAVBAR SECTION */
+#navbar{
+  
+    background-color: rgb(206, 225, 245);
+ padding: 15px 15px;
+ font-family: 'Comforter', cursive;
+ font-size: large;
+}
+#navbar ul {
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items:center ;
+}
+#navbar li{
+    list-style: none; ;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    font-size:1.5rem;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color:chocolate;
+    
+
+   
+}
+
+
+/* THIS IS INTROSECTION */
+#introSection{
+    height:500px;
+ padding-left: 50pxpx;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 2.5rem;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: bisque;
+    background: url(static/dance2.jpg) center / cover no-repeat  ;
+    
+    background-position: center;
+    
+    
+}
+
+#introSection div.small{
+    font-size: 1.5rem;
+}
+
+
+
+/* THIS IS MISSION SECTION */
+#missionSection{
+    /* background-color: darkgrey; */
+    height: 400px;
+    width: 67%;
+  margin: auto;
+  padding: 0px;
+  /* font-size: 2.5rem; */
+}
+
+#missionSection h2{
+    
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding-top: 23px;
+    /* margin-inline-start: 148px; */
+    font-size: 2.8rem;
+    margin-bottom: auto;
+}
+.card{
+    margin-inline-start: 100%;
+    display:inline-block;
+    flex-direction: row;
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 45%;
+    margin: 23px 23px;
+    padding: 14px;
+    align-items: center;
+    /* text-decoration: underline; */
+}
+.card h3{
+    text-align: center;
+    margin: 10px 10px;
+
+}
+.card-box{
+    /* margin-inline-start: 100px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-decoration: underline; */
+}
+.card-img{
+    height:90px;
+    padding: -5px 14px;
+    margin: 12px -4px;
+   
+}
+.card-img img{
+    height: inherit;
+    padding: 5px 1px;
+    margin: 8px 0px;
+} 
+.card-content{
+padding: 0px 15px;
+}
+.card-content p{
+font-size: 16px;
+}
+
+
+.card h2{
+    text-align: center;
+    margin: 12px;
+}
+#sponsersSection {
+    height: 400px;
+    background-color:rgb(0, 0, 0);
+    /* background: url(static/dance3.jpg) center / cover no-repeat  ; */
+}
+#sponsersSection h3{
+    color: white;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    justify-content: center;
+    margin-top: -100px;
+    padding-top: 23px;
+    font-size: 2.5rem;
+    /* background-color: rgba(206, 225, 245, 0); */
+   
+}
+#sponsers img{
+    height: 250px;
+    width: 500px;
+    max-width: 1000px;
+    margin: auto;
+    align-items:center;
+    justify-content: center;
+    margin: 24px 498px;
+
+}
+
+
+#footer{
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    color: white;
+   
+}
