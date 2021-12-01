@@ -1,0 +1,22 @@
+touch .gitignore
+
+git config --global user.name Shanmukha
+git config --global user.email upparishanmukha@gmail.com
+
+git init
+
+git add
+
+git commit -m "Initial commit"
+
+git status
+
+git remote add origin git@github.com:shanmukha434/Dance-Academy-Website.git
+
+tail <path to id_rsa.pub>#add this key to github
+
+git remote add origin <ssh url.git>
+
+git push origin master
+
+
